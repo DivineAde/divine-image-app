@@ -13,21 +13,14 @@ const MobileNav = () => {
 
   return (
     <header className="header">
-      <Link href="/" className="flex items-center gap-2.5">
-        <div
-          className="flex items-center justify-center w-7 h-7 rounded-md flex-shrink-0"
-          style={{ background: '#111827' }}
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="white" strokeLinejoin="round"/>
-          </svg>
-        </div>
-        <Image
-          src="/assets/images/logo-text.svg"
-          alt="logo"
-          width={130}
-          height={22}
-        />
+      <Link href="/" className="flex items-center">
+         <Image
+                      src="/divine image app-logo-transparent.png"
+                      alt="logo"
+                      width={60}
+                      height={60}
+                      className="brightness-[2] opacity-90"
+                    />
       </Link>
 
       <nav className="flex gap-3 items-center">
@@ -38,7 +31,7 @@ const MobileNav = () => {
             <SheetTrigger asChild>
               <button
                 className="flex items-center justify-center w-8 h-8 rounded-md transition-colors"
-                style={{ background: '#f3f4f6', border: '1px solid #e5e7eb' }}
+                style={{ background: '#f3f4f6', border: '2px solid #000' }}
                 aria-label="Open menu"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
@@ -55,19 +48,11 @@ const MobileNav = () => {
                 {/* Sheet logo */}
                 <div className="px-5 py-5 border-b" style={{ borderColor: 'rgba(255,255,255,0.05)' }}>
                   <div className="flex items-center gap-2.5">
-                    <div
-                      className="flex items-center justify-center w-7 h-7 rounded-md flex-shrink-0"
-                      style={{ background: '#e2e8f0' }}
-                    >
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none">
-                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" fill="#09090f" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
                     <Image
-                      src="/assets/images/logo-text.svg"
+                      src="/divine image app-logo-transparent.png"
                       alt="logo"
-                      width={120}
-                      height={20}
+                      width={60}
+                      height={10}
                       className="brightness-[2] opacity-90"
                     />
                   </div>

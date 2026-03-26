@@ -387,7 +387,7 @@
   /* ===== MOBILE HEADER */
   .header {
     @apply flex-between fixed h-16 w-full p-5 lg:hidden;
-    background: rgba(255,255,255,0.9);
+    background: #09090f;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom: 1px solid #e5e7eb;
